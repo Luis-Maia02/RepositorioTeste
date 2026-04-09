@@ -28,14 +28,16 @@ h1{
      
 }
 .fora{
-    background-color: wheat;
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 .dentro{
     background-color: violet;
     width: 200px;
     padding: 15px;
-    border: 3px solid #ffffff;
+    border: 3px solid #ccc;
     border-radius: 8px;
     text-align: center;
 }
