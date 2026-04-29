@@ -1,0 +1,4 @@
+body color: Alice Blue
+font do size: 3 rem
+font weight 500
+font family sans-serif
