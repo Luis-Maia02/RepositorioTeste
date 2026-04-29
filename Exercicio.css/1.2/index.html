@@ -1,132 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Spanish Vocabulary</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <title>CSS Inspection</title>
-  <style>
-    body {
-      background-color: aliceblue;
-      text-align: center;
-      font-family: Arial, sans-serif;
-    }
+  <body>
+    <h1>Cores</h1>
+    <h2>Aprenda as cores em Espanhol!</h2>
+    <h2 class="color-title" id="red">Rojo</h2>
+    <img src="./assets/images/red.png" alt="red" />
 
-    h1 {
-      color: royalblue;
-      font-size: 3rem;
-      font-family: 'Times New Roman', sans-serif;
-    }
+    <h2 class="color-title" id="blue">Azul</h2>
+    <img src="./assets/images/blue.png" alt="blue" />
 
-    p {
-      font-size: 1rem;
-      font-weight: normal;
-    }
+    <h2 class="color-title" id="orange">Anaranjado</h2>
+    <img src="./assets/images/orange.png" alt="orange" />
 
-    h2 {
-      font-weight: 500;
-    }
+    <h2 class="color-title" id="green">Verde</h2>
+    <img src="./assets/images/green.png" alt="green" />
 
-    .quiz {
-      margin: 20px;
-      text-align: left;
-    }
-
-    .question {
-      font-size: 18px;
-      font-weight: normal;
-      text-align: left;
-      margin: 20px;
-    }
-
-    .answer {
-      font-size: 16px;
-      font-weight: normal;
-      text-align: left;
-      margin: 20px;
-    }
-  </style>
-</head>
-
-<body>
-  <h1>Me Inspecione!</h1>
-  <h2>Este é um site simples para aprender como inspecionar CSS</h2>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
-    viverra euismod odio, gravida pellentesque urna varius vitae.
-    Suspendisse potenti. Morbi commodo, ipsum in blandit hendrerit,
-    velit enim ornare nisi, eget consequat libero libero eu libero.
-    Donec varius, sem eget ornare commodo, quam libero pretium
-    libero, euismod blandit mauris nunc in magna.
-  </p>
-  <hr />
-  <div class="quiz">
-    <div class="question">
-      Q.1 Qual a cor que foi definida para o body?
-    </div>
-    <div class="answer">
-      <input type="text" id="answer1">
-      <button onclick="checkAnswer1()">Submit</button>
-      <p id="result1"></p>
-    </div>
-    <div class="question">
-      Q.2 Qual é a font size do h1?
-    </div>
-    <div class="answer">
-      <input type="text" id="answer2">
-      <button onclick="checkAnswer2()">Submit</button>
-      <p id="result2"></p>
-    </div>
-    <div class="question">
-      Q.3 Qual é a font weight do h2?
-    </div>
-    <div class="answer">
-      <input type="text" id="answer3">
-      <button onclick="checkAnswer3()">Submit</button>
-      <p id="result3"></p>
-    </div>
-    <div class="question">
-      Q.4 Qual é a font family do p?
-    </div>
-    <div class="answer">
-      <input type="text" id="answer4">
-      <button onclick="checkAnswer4()">Submit</button>
-      <p id="result4"></p>
-    </div>
-  </div>
-</body>
-<script>
-  function checkAnswer1() {
-    var answer = document.getElementById("answer1").value;
-    if (answer.toLowerCase() === "aliceblue" || answer.toLowerCase() === "alice blue") {
-      document.getElementById("result1").innerHTML = "Correto!";
-    } else {
-      document.getElementById("result1").innerHTML = "Incorreto. Tente Novamente!";
-    }
-  }
-  function checkAnswer2() {
-    var answer = document.getElementById("answer2").value;
-    if (answer.toLowerCase() === "3rem" || answer.toLowerCase() === "3 rem") {
-      document.getElementById("result2").innerHTML = "Correto!";
-    } else {
-      document.getElementById("result2").innerHTML = "Incorreto. Tente Novamente!";
-    }
-  }
-  function checkAnswer3() {
-    var answer = document.getElementById("answer3").value;
-    if (answer.toLowerCase() === "500") {
-      document.getElementById("result3").innerHTML = "Correto!";
-    } else {
-      document.getElementById("result3").innerHTML = "Incorreto. Tente Novamente!";
-    }
-  }
-  function checkAnswer4() {
-    var answer = document.getElementById("answer4").value;
-    if (answer.toLowerCase() === "arial" || answer.toLowerCase() === "arial, sans-serif" || answer.toLowerCase() === "sans-serif" || answer.toLowerCase() === "sans serif") {
-      document.getElementById("result4").innerHTML = "Correto!";
-    } else {
-      document.getElementById("result4").innerHTML = "Incorreto. Tente Novamente!";
-    }
-  }
-</script>
-
+    <h2 class="color-title" id="yellow">Amarillo</h2>
+    <img src="./assets/images/yellow.png" alt="yellow" />
+  </body>
 </html>
+
+<!-- 
+TODOs
+IMPORTANT: You should not need to make ANY CHANGES to index.html
+All code should be written in your CSS file.
+
+1. Create a CSS file and incorporate it as an external stylesheet.
+2. Use CSS to style each of the color titles to meaning. 
+Hint: Use the id to help if you don't know the words in spanish.
+3. Use CSS to change all the color titles to have "font-weight: normal;"
+4. Use CSS (not HTML) to make all the images 200px heigh and 200px wide. 
+Hint: 
+https://developer.mozilla.org/en-US/docs/Web/CSS/height
+https://developer.mozilla.org/en-US/docs/Web/CSS/width
+-->

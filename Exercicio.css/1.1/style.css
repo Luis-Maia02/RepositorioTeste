@@ -25,3 +25,7 @@ p{
     color: green;
 
 }
+li[value = "4"]{
+    color: blue;
+
+}
