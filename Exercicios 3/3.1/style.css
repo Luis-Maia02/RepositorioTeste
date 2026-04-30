@@ -1,4 +1,3 @@
-/* Não Altere o CSS Inicial, Apenas Adicione o Seu CSS. */
 
 .box {
     background-color: blue;
@@ -10,3 +9,9 @@
     margin: 0;
     padding: 0;
   }
+.white-text {
+    color: white;
+    background-color: red;
+    padding: 10px;
+  }
+

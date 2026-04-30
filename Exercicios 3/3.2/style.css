@@ -1,0 +1,22 @@
+/* - Não altere o HTML
+- Crie o arquivo `style.css`
+    - Faça com que o `h1` e o `h2` tenham a cor `blueviolet` (utilize seletores de grupo).
+    - Faça com que o primeiro parágrafo “Faça essas coisas hoje!” tenha a cor de texto `firebrick` (utilize o seletor filho `>` ).
+    - Utilize o `descendant selector` para colorir os elementos da lista como `blue`.
+    - Utilize o `chainning selector` para colorir o segundo e terceiro da lista como `seagreen`.
+    - Faça com que o “Outras Opções” tenha `font-size` de `0.5rem`. */
+h1, h2 {
+    color: blueviolet;
+}
+div > .done{
+    color: firebrick;
+}
+div li {
+    color: blue;
+}
+div li:nth-child(2), div li:nth-child(3) {
+    color: seagreen;
+}
+ul > p{
+    font-size: 0.5rem;
+}
